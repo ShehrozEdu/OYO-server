@@ -1,0 +1,413 @@
+[
+  {
+    "name": "OYO 72887 LODGE STAY Heights",
+    "area": "147, RS PURA NEAR BORDER LINE",
+    "ratings": "4.1",
+    "location": 1,
+    "city": "Jammu",
+    "amenities": ["Wifi", "AC", "Tv", "Queen sized bed", "Wardrobe", "Cot"],
+    "imageUrls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/102192/medium/11263bf33c8b089a.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/102192/medium/947e5ac471022b09.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/102192/medium/eaf76beee8328589.jpg"
+    ],
+    "discountedRate": 1475,
+    "actualRate": 1800,
+    "roomType": "Classic",
+    "maxCount": 3,
+    "collections_id": [1, 2, 5],
+    "category_id": [1],
+    "accommodation_id": [1],
+    "collections": [
+      { "id": "1", "name": "Family" },
+      { "id": "2", "name": "Couples" },
+      { "id": "5", "name": "ID" }
+    ],
+    "category": [{ "id": "1", "name": "OYO" }],
+    "accommodation": [{ "id": "1", "name": "OYOhotel" }],
+    "phoneNumber": 123456789,
+    "currentBookings": [],
+    "description": "Did you know that we’ve got 2.5 Crore bookings since March 2020? And this is all thanks to the sanitization & safety measures followed at our properties, from disinfecting surfaces with high-quality cleaning products and maintaining social distance to using protective gear and more."
+  },
+  {
+    "name": "OYO 12841 Hotel Maa Residency",
+    "area": "100 METER FROM RAGHUNATH TEMPLE",
+    "ratings": "4.3",
+    "location": 1,
+    "city": "Jammu",
+    "amenities": ["Wifi", "AC", "Tv", "King sized bed", "Wardrobe", "Cot"],
+    "imageUrls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/20279/large/8719f8e1ab742c40.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/20279/large/fc31bec7a5f051f9.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/20279/large/0e160ec054439059.jpg"
+    ],
+    "discountedRate": 1500,
+    "actualRate": 2000,
+    "roomType": "Delux",
+    "maxCount": 3,
+    "collections_id": [2, 3],
+    "category_id": [1],
+    "accommodation_id": [1],
+    "collections": [
+      { "id": "2", "name": "Couples" },
+      { "id": "3", "name": "Group" }
+    ],
+    "category": [{ "id": "1", "name": "OYO" }],
+    "accommodation": [{ "id": "1", "name": "OYOhotel" }],
+    "phoneNumber": 9989649278,
+    "currentBookings": [],
+    "description": "Hotel Shiva Sai Lodge is a furnished and modest property located in Regimental Bazaar, Shivaji Nagar, Secunderabad, Telangana.The property is in close vicinity to multiple tourist spots namely Sanjeeviah Park, Buddha Statue, Snow World, and Birla Science Museum."
+  },
+  {
+    "name": "Collection O 700709 Vtrivel Stay",
+    "area": "Sushant Lok 1 Road, Block A, Sushant Lok Phase I, Gurgaon",
+    "ratings": "1.8",
+    "location": 2,
+    "city": "Delhi",
+    "amenities": ["Wifi", "AC", "Tv", "Geyser", "Power Backup", "Elevator"],
+    "imageUrls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/192587/large/9e75af8e7a50d61b.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/192587/large/1cb3a351b2a21b76.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/192587/large/3f16f43aaf4fb092.jpg"
+    ],
+    "discountedRate": 678,
+    "actualRate": 2078,
+    "roomType": "NonDelux",
+    "maxCount": 3,
+    "collections_id": [1, 2, 3, 5],
+    "category_id": [1, 2],
+    "accommodation_id": [1, 2],
+    "collections": [
+      { "id": "1", "name": "Family" },
+      { "id": "2", "name": "Couples" },
+      { "id": "3", "name": "Group" },
+      { "id": "5", "name": "ID" }
+    ],
+    "category": [
+      { "id": "1", "name": "OYO" },
+      { "id": "2", "name": "Flagship" }
+    ],
+    "accommodation": [
+      { "id": "1", "name": "OYOhotel" },
+      { "id": "2", "name": "Hotel" }
+    ],
+    "phoneNumber": 9989649278,
+    "currentBookings": [],
+    "description": "A space for new-age travelers."
+  },
+  {
+    "name": "Flagship 77174 BSNL Exchange",
+    "area": "B1149, Greenfield Colony Block B, Sector 43, Faridabad",
+    "ratings": "4.1",
+    "location": 2,
+    "city": "Delhi",
+    "amenities": ["Wifi", "AC", "Tv", "Card Payment", "CCTV", "Power Backup"],
+    "imageUrls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/108217/large/715238e781dd92fb.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/108217/large/8e6dab1d91a2ddab.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/108217/large/3e548b57a3da2a7b.jpg"
+    ],
+    "discountedRate": 720,
+    "actualRate": 2392,
+    "roomType": "Delux",
+    "maxCount": 3,
+    "collections_id": [1, 2, 3, 5],
+    "category_id": [2],
+    "accommodation_id": [2],
+    "collections": [
+      { "id": "1", "name": "Family" },
+      { "id": "2", "name": "Couples" },
+      { "id": "3", "name": "Group" },
+      { "id": "5", "name": "ID" }
+    ],
+    "category": [{ "id": "2", "name": "Flagship" }],
+    "accommodation": [{ "id": "2", "name": "Hotel" }],
+    "phoneNumber": 458962458,
+    "currentBookings": [],
+    "description": "The OYO Flagship 42753 BSNL Exchange offers a superior check-in experience that is assured. The hotel is located just 12 km from Town Park and 5 km from Suraj Kund Ground. With CCTV Cameras and Breakfast, this property promises comfortable stays at affordable prices. Special Features: There are many features of hotel rooms with AC, TV, free WiFi and more. Rooms have an attached bathroom with a fan. You are looking for a hotel with power backup, card payment, fire-extinguishers and wellness centre. We have all this and more!"
+  },
+  {
+    "name": "OYO Home 79557 Elegant Stay (24 Baner) Baner",
+    "area": "16, Opposite Bravuria Society Shivar Chinese Corner Near, Lane, Balewadi Phata, Balewadi, Pune",
+    "ratings": "4.3",
+    "location": 3,
+    "city": "Pune",
+    "amenities": ["Wifi", "AC", "Tv", "King sized bed", "Wardrobe", "Cot"],
+    "imageUrls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/111027/large/8e1276eb6bd87b89.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/111027/large/6609403d6ca10172.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/111027/large/8155d3024d74b192.jpg"
+    ],
+    "discountedRate": 1128,
+    "actualRate": 3400,
+    "roomType": "Delux",
+    "maxCount": 3,
+    "collections_id": [],
+    "category_id": [],
+    "accommodation_id": [],
+    "collections": [
+      { "id": "1", "name": "Family" },
+      { "id": "2", "name": "Couples" },
+      { "id": "3", "name": "Group" },
+      { "id": "4", "name": "Business" },
+      { "id": "5", "name": "ID" }
+    ],
+    "category": [
+      { "id": "1", "name": "OYO" },
+      { "id": "2", "name": "Flagship" },
+      { "id": "3", "name": "Collection" }
+    ],
+    "accommodation": [
+      { "id": "1", "name": "OYOhotel" },
+      { "id": "2", "name": "Hotel" }
+    ],
+    "phoneNumber": 745632186,
+    "currentBookings": [],
+    "description": "Single Female Guest is not allowed without valid proof(Other than ID Proof). Property team will verify and decide to provide check-in.    Single Female Guest is not allowed without valid proof. Couples are welcome Guests can check in using any local or outstation ID proof (PAN card not accepted). Only Indian Nationals allowed"
+  },
+  {
+    "name": "Flagship 77672 Kharadi",
+    "area": "Sr No 134/4/2/1 Tulja Bhavani Nagar Beside Chandan Marble Near Yadav Petrol Pump, Nagar Rd, Kharadi, Pune",
+    "ratings": "3.4",
+    "location": 3,
+    "city": "Pune",
+    "amenities": ["Wifi", "AC", "Tv", "King sized bed", "Parking", "Cot"],
+    "imageUrls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/108857/large/26353ec924d1779b.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/108857/large/1fdb5b7381ff3fb1.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/108857/large/1ac87172a1a3671b.jpg"
+    ],
+    "discountedRate": 973,
+    "actualRate": 2779,
+    "roomType": "Delux",
+    "maxCount": 3,
+    "collections_id": [1, 2, 3, 4, 5],
+    "category_id": [2],
+    "accommodation_id": [1, 2],
+    "collections": [
+      { "id": "1", "name": "Family" },
+      { "id": "2", "name": "Couples" },
+      { "id": "3", "name": "Group" },
+      { "id": "4", "name": "Business" },
+      { "id": "5", "name": "ID" }
+    ],
+    "category": [{ "id": "2", "name": "Flagship" }],
+    "accommodation": [
+      { "id": "1", "name": "OYOhotel" },
+      { "id": "2", "name": "Hotel" }
+    ],
+    "phoneNumber": 9989649278,
+    "currentBookings": [],
+    "description": "Couples are welcome Guests can check in using any local or outstation ID proof (PAN card not accepted). Only Indian Nationals allowed"
+  },
+  {
+    "name": "OYO 7724 Hotel Pr Chandigarh",
+    "area": "Plot No.105, Vpo Dariya, Railway Station, Chandigarh",
+    "ratings": "3.7",
+    "location": 4,
+    "city": "Chandigarh",
+    "amenities": ["Wifi", "AC", "Tv", "King sized bed", "Geyser", "Cot"],
+    "imageUrls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/12913/large/aeeabad9aea1e6e9.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/12913/large/c5b07b2a00265d9e.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/12913/large/c09218a85e4979eb.jpg"
+    ],
+    "discountedRate": 656,
+    "actualRate": 1562,
+    "roomType": "Delux",
+    "maxCount": 3,
+    "collections_id": [1, 2],
+    "category_id": [1, 3],
+    "accommodation_id": [1],
+    "collections": [
+      { "id": "1", "name": "Family" },
+      { "id": "2", "name": "Couples" }
+    ],
+    "category": [
+      { "id": "1", "name": "OYO" },
+      { "id": "3", "name": "Collection" }
+    ],
+    "accommodation": [{ "id": "1", "name": "OYOhotel" }],
+    "phoneNumber": 9989649278,
+    "currentBookings": [],
+    "description": "OYO 7724 Hotel Kohinoor City is a budget hotel that offers standardised amenities at the best value. Located at the heart of Chandigarh, this hotel offers parking facility, CCTV cameras and power backup."
+  },
+  {
+    "name": "OYO 75331 Hotel Shivam Lodge",
+    "area": "Near Near Ats Homes, Dera Bassi, Zirakpur",
+    "ratings": "4.3",
+    "location": 4,
+    "city": "Chandigarh",
+    "amenities": ["Wifi", "AC", "Tv", "King sized bed", "CCTV", "Power Backup"],
+    "imageUrls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/105782/large/9e1d0e1bdc55673d.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/105782/large/af2d0c88ba22c6b1.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/105782/large/c8d4538b9135e193.jpg"
+    ],
+    "discountedRate": 960,
+    "actualRate": 2909,
+    "roomType": "Delux",
+    "maxCount": 3,
+    "collections_id": [1, 2, 3, 4, 5],
+    "category_id": [1, 2],
+    "accommodation_id": [1],
+    "collections": [
+      { "id": "1", "name": "Family" },
+      { "id": "2", "name": "Couples" },
+      { "id": "3", "name": "Group" },
+      { "id": "4", "name": "Business" },
+      { "id": "5", "name": "ID" }
+    ],
+    "category": [
+      { "id": "1", "name": "OYO" },
+      { "id": "2", "name": "Flagship" }
+    ],
+    "accommodation": [{ "id": "1", "name": "OYOhotel" }],
+    "phoneNumber": 9989649278,
+    "currentBookings": [],
+    "description": "OYO 75331 Hotel Shivam Lodge is located in Zirakpur, Chandigarh. This is your best choice for staying in this city."
+  },
+  {
+    "name": "Capital O 700522 The Great Ocean View",
+    "area": "Mandrem, Pernem, North Goa, Goa",
+    "ratings": "4.4",
+    "location": 5,
+    "city": "Goa",
+    "amenities": [
+      "Kitchen",
+      "AC",
+      "Tv",
+      "King sized bed",
+      "Wardrobe",
+      "Swimming Pool"
+    ],
+    "imageUrls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/192296/large/eed1dec3c0df5d5b.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/192296/large/6f62f21dad0a4fa9.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/192296/large/3060d663982a3731.jpg"
+    ],
+    "discountedRate": 2104,
+    "actualRate": 6012,
+    "roomType": "Delux",
+    "maxCount": 3,
+    "collections_id": [1, 2, 5],
+    "category_id": [3],
+    "accommodation_id": [2],
+    "collections": [
+      { "id": "1", "name": "Family" },
+      { "id": "2", "name": "Couples" },
+      { "id": "5", "name": "ID" }
+    ],
+    "category": [
+      { "id": "1", "name": "OYO" },
+      { "id": "2", "name": "Flagship" }
+    ],
+    "accommodation": [{ "id": "2", "name": "Hotel" }],
+    "phoneNumber": 998969278,
+    "currentBookings": [],
+    "description": "Couples are welcome Guests can check in using any local or outstation ID proof (PAN card not accepted). As a complimentary benefit, your stay is now insured by Acko. This hotel is serviced under the trade name of The Great Ocean View as per quality standards of OYO"
+  },
+  {
+    "name": "Townhouse OAK Kris Dane's Resort",
+    "area": "Roland Place, Holiday Street, Calangute, Bardez, North Goa, Goa",
+    "ratings": "3.9",
+    "location": 5,
+    "city": "Goa",
+    "amenities": [
+      "Kitchen",
+      "AC",
+      "Tv",
+      "King sized bed",
+      "Modern Wardrobe",
+      "Cot"
+    ],
+    "imageUrls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/185456/large/ca7c8ca948463c71.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/185456/large/6b86f4de48c01f16.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/185456/large/e2c7cd6d50b3b551.jpg"
+    ],
+    "discountedRate": 5065,
+    "actualRate": 16082,
+    "roomType": "Delux",
+    "maxCount": 3,
+    "collections_id": [1, 2],
+    "category_id": [2],
+    "accommodation_id": [2],
+    "collections": [
+      { "id": "1", "name": "Family" },
+      { "id": "2", "name": "Couples" }
+    ],
+    "category": [{ "id": "2", "name": "Flagship" }],
+    "accommodation": [{ "id": "2", "name": "Hotel" }],
+    "phoneNumber": 3985852458,
+    "currentBookings": [],
+    "description": "Couples are welcome Guests can check in using any local or outstation ID proof (PAN card not accepted). As a complimentary benefit, your stay is now insured by Acko. This hotel is serviced under the trade name of The Great Ocean View as per quality standards of OYO"
+  },
+  {
+    "name": "OYO SilverKey 75992 Bhumi World",
+    "area": "Bhumi World Industrial Estate, Mumbai Nasik Highway, Opp Tata Amantra, Bhiwandi, Thane, Mumbai",
+    "ratings": "3.5",
+    "location": 6,
+    "city": "Mumbai",
+    "amenities": [
+      "Wifi",
+      "AC",
+      "Power backup",
+      "King sized bed",
+      "In-house Restaurant",
+      "Cot"
+    ],
+    "imageUrls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/106695/large/4d79a3e97747bfbd.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/106695/large/bc9b39707d521a89.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/106695/large/e60fb8bb1c7e1425.jpg"
+    ],
+    "discountedRate": 1074,
+    "actualRate": 3069,
+    "roomType": "Delux",
+    "maxCount": 3,
+    "collections_id": [1, 2, 4],
+    "category_id": [2],
+    "accommodation_id": [2],
+    "collections": [
+      { "id": "1", "name": "Family" },
+      { "id": "2", "name": "Couples" },
+      { "id": "4", "name": "Business" }
+    ],
+    "category": [{ "id": "2", "name": "Flagship" }],
+    "accommodation": [{ "id": "2", "name": "Hotel" }],
+    "phoneNumber": 9989649278,
+    "currentBookings": [],
+    "description": "Did you know that we’ve got 2.5 Crore bookings since March 2020? And this is all thanks to the sanitisation & safety measures followed at our properties, from disinfecting surfaces with high-quality cleaning products and maintaining social distance to using protective gear and more."
+  },
+  {
+    "name": "Capital O 62560 Hotel Zaid International",
+    "area": "Near Huntsman Building, Marol, Mumbai",
+    "ratings": "4.0",
+    "location": 6,
+    "city": "Mumbai",
+    "amenities": ["Wifi", "AC", "Tv", "King sized bed", "Wardrobe", "Cot"],
+    "imageUrls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/84220/large/c36da8d7c5d5802d.JPG",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/84220/large/1baec285d6f6113f.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/84220/large/fcc0bde15a35e0e3.jpg"
+    ],
+    "discountedRate": 3246,
+    "actualRate": 9274,
+    "roomType": "Delux",
+    "maxCount": 3,
+    "collections_id": [2, 5],
+    "category_id": [1],
+    "accommodation_id": [1],
+    "collections": [
+      { "id": "2", "name": "Couples" },
+
+      { "id": "5", "name": "ID" }
+    ],
+    "category": [{ "id": "1", "name": "OYO" }],
+    "accommodation": [{ "id": "1", "name": "OYOhotel" }],
+    "phoneNumber": 9989649278,
+    "currentBookings": [],
+    "description": "Capital O 62560 Hotel Zaid International is a top-rated hotel in Mumbai, with spacious rooms and a parking facility. This property is located 23 km from Gateway of India and 14 km from Shri Siddhi Vinayak Ganapati Mandir."
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "city": "Jammu",
+    "city_id": 1,
+    "country_name": "India"
+  },
+  {
+    "city": "Delhi",
+    "city_id": 2,
+    "country_name": "India"
+  },
+
+  {
+    "city": "Pune",
+    "city_id": 3,
+    "country_name": "India"
+  },
+
+  {
+    "city": "Chandigarh",
+    "city_id": 4,
+    "country_name": "India",
+    "__v": 0
+  },
+  {
+    "city": "Goa",
+    "city_id": 5,
+    "country_name": "India",
+    "__v": 0
+  },
+  {
+    "city": "Mumbai",
+    "city_id": 6,
+    "country_name": "India",
+    "__v": 0
+  }
+]
