@@ -5,7 +5,7 @@ const UsersController = {
     const newUser = new UserModel(req.body);
     try {
       const user = await newUser.save();
-      res.status(200).send("Registration Successful");
+      res.status(200).send({ message: "Registration Successful", user: user });
     } catch (error) {
       res.status(404).send(error);
     }

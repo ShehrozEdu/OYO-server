@@ -3,6 +3,7 @@ const router = express.Router();
 const RoomsController = require("../controllers/RoomsController");
 const UsersController = require("../controllers/UsersController");
 const LocationController = require("../controllers/LocationController");
+const BookingsController = require("../controllers/BookingsController");
 
 //------Rooms------//
 router.post("/add-rooms", RoomsController.addRooms);
@@ -19,6 +20,9 @@ router.post("/register", UsersController.register);
 
 router.get("/get-location", LocationController.getLocationList);
 router.get("/get-location-by-name", LocationController.getLocationByCityName);
-
 router.post("/add-location", LocationController.addLocationList);
+
+//------Bookings------//
+router.post("/book-rooms", BookingsController.bookRoom);
+
 module.exports = router;
