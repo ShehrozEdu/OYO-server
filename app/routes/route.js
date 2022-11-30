@@ -24,5 +24,6 @@ router.post("/add-location", LocationController.addLocationList);
 
 //------Bookings------//
 router.post("/book-rooms", BookingsController.bookRoom);
+router.post("/getBookingsByUserId", BookingsController.getBookingsById);
 
 module.exports = router;
