@@ -21,10 +21,7 @@ const RoomsController = {
   getRooms: async (req, res) => {
     try {
       let result = await RoomsModel.find();
-      res.status(200).send({
-        status: true,
-        rooms: result,
-      });
+      res.status(200).send(result);
     } catch (error) {
       res.status(500).send({
         status: false,
@@ -64,6 +61,33 @@ const RoomsController = {
         message: "server error",
         error,
       });
+    }
+  },
+  newRoom: async (req, res) => {
+    try {
+      const addRoom = new RoomsModel(req.body);
+      await addRoom.save();
+      res.status(200).send("New Room Added Successfully");
+    } catch (error) {
+      res.status(500).send(error);
+    }
+  },
+
+  filterRoom: async (req, res) => {
+    const { collections, category, accommodation, discountedRate, city } =
+      req.body;
+    const filterObj = {};
+    if (city) filterObj["city"] = city;
+    collections && (filterObj["collections_id"] = { $in: collections });
+    category && (filterObj["category_id"] = { $in: category });
+    accommodation && (filterObj["accommodation_id"] = { $in: accommodation });
+
+    try {
+      const result = await RoomsModel.find(filterObj);
+      // console.log(result);
+      res.status(200).send(result);
+    } catch (error) {
+      res.status(500).send(error);
     }
   },
 };

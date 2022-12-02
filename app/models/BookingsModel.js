@@ -8,6 +8,7 @@ const BookingsSchema = mongoose.Schema(
     checkOutDate: { type: String, required: true },
     totalAmount: { type: Number, required: true },
     transactionId: { type: String, required: true },
+    roomId: { type: String, required: true },
     status: { type: String, default: "booked" },
   },
   {

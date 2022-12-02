@@ -12,6 +12,7 @@ const BookingsController = {
       checkInDate,
       checkOutDate,
       totalAmount,
+      roomId,
       token,
     } = req.body;
 
@@ -36,15 +37,16 @@ const BookingsController = {
       if (payment) {
         const newBookings = new Bookings({
           roomsDetails: roomsDetails.name,
+          roomId: roomsDetails._id,
           userId,
           checkInDate: moment(checkInDate).format("DD-MM-YYYY"),
           checkOutDate: moment(checkOutDate).format("DD-MM-YYYY"),
           totalAmount,
+
           transactionId: `receipt_${Math.floor(2) + Math.random(12)}`,
         });
 
         const bookings = await newBookings.save();
-        // console.log(bookings);
 
         const tempRoom = await Rooms.findOne({ _id: roomsDetails._id });
 
@@ -55,7 +57,7 @@ const BookingsController = {
           userId: userId,
           status: bookings.status,
         });
-        // console.log(tempRoom);
+
         await tempRoom.save();
       }
       res.status(200).send("Payment Successful, Room booked");
@@ -69,6 +71,34 @@ const BookingsController = {
       const userId = req.body.userId;
       const bookings = await Bookings.find({ userId: userId });
       res.status(200).send(bookings);
+    } catch (error) {
+      res.status(500).send(error);
+    }
+  },
+  cancelBooking: async (req, res) => {
+    const { bookingId, roomId } = req.body;
+    try {
+      const cancelBookings = await Bookings.findOne({ _id: bookingId });
+      cancelBookings.status = "cancelled";
+      await cancelBookings.save();
+
+      const roomCancel = await Rooms.findOne({ _id: roomId });
+      const bookings = roomCancel.currentBookings;
+      const temp = bookings.filter((booking) => {
+        booking.bookingsId.toString() !== bookingId;
+      });
+
+      roomCancel.currentBookings = temp;
+      await roomCancel.save();
+      res.send("Booking has been cancelled");
+    } catch (error) {
+      res.status(500).send(error);
+    }
+  },
+  adminAllBookings: async (req, res) => {
+    try {
+      const result = await Bookings.find();
+      res.status(200).send(result);
     } catch (error) {
       res.status(500).send(error);
     }

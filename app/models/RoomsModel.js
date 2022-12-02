@@ -6,7 +6,7 @@ const RoomsSchema = mongoose.Schema({
   city: { type: String, required: true },
   city_id: { type: Number, required: true },
   ratings: { type: String, required: true },
-  maxCount: { type: Number, required: true },
+  maxCount: { type: Number },
   roomType: { type: String, required: true },
   collections: { type: Array },
   amenities: { type: Array },
