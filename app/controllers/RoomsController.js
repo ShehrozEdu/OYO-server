@@ -77,7 +77,7 @@ const RoomsController = {
     const { collections, category, accommodation, discountedRate, city } =
       req.body;
     const filterObj = {};
-    if (city) filterObj["city"] = city;
+    if (city) filterObj["city_id"] = city;
     collections && (filterObj["collections_id"] = { $in: collections });
     category && (filterObj["category_id"] = { $in: category });
     accommodation && (filterObj["accommodation_id"] = { $in: accommodation });

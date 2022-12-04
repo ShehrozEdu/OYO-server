@@ -12,14 +12,14 @@ const UsersController = {
   },
 
   login: async (req, res) => {
-    const { email, password } = req.body;
+    const { email, password, isAdmin } = req.body;
     try {
       const user = await UserModel.findOne(
         {
           email: email,
           password: password,
         },
-        { email: 1 }
+        { email: 1, isAdmin: 1 }
       );
       if (user) {
         res.status(200).send({ message: "Login Successful", user: user });

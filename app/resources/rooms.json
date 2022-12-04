@@ -3,7 +3,7 @@
     "name": "OYO 72887 LODGE STAY Heights",
     "area": "147, RS PURA NEAR BORDER LINE",
     "ratings": "4.1",
-    "location": 1,
+    "city_id": 1,
     "city": "Jammu",
     "amenities": ["Wifi", "AC", "Tv", "Queen sized bed", "Wardrobe", "Cot"],
     "imageUrls": [
@@ -15,14 +15,10 @@
     "actualRate": 1800,
     "roomType": "Classic",
     "maxCount": 3,
-    "collections_id": [1, 2, 5],
+    "collections_id": [2],
     "category_id": [1],
     "accommodation_id": [1],
-    "collections": [
-      { "id": "1", "name": "Family" },
-      { "id": "2", "name": "Couples" },
-      { "id": "5", "name": "ID" }
-    ],
+    "collections": [{ "id": "2", "name": "Couples" }],
     "category": [{ "id": "1", "name": "OYO" }],
     "accommodation": [{ "id": "1", "name": "OYOhotel" }],
     "phoneNumber": 123456789,
@@ -33,7 +29,7 @@
     "name": "OYO 12841 Hotel Maa Residency",
     "area": "100 METER FROM RAGHUNATH TEMPLE",
     "ratings": "4.3",
-    "location": 1,
+    "city_id": 1,
     "city": "Jammu",
     "amenities": ["Wifi", "AC", "Tv", "King sized bed", "Wardrobe", "Cot"],
     "imageUrls": [
@@ -45,13 +41,10 @@
     "actualRate": 2000,
     "roomType": "Delux",
     "maxCount": 3,
-    "collections_id": [2, 3],
+    "collections_id": [3],
     "category_id": [1],
     "accommodation_id": [1],
-    "collections": [
-      { "id": "2", "name": "Couples" },
-      { "id": "3", "name": "Group" }
-    ],
+    "collections": [{ "id": "3", "name": "Group" }],
     "category": [{ "id": "1", "name": "OYO" }],
     "accommodation": [{ "id": "1", "name": "OYOhotel" }],
     "phoneNumber": 9989649278,
@@ -62,7 +55,7 @@
     "name": "Collection O 700709 Vtrivel Stay",
     "area": "Sushant Lok 1 Road, Block A, Sushant Lok Phase I, Gurgaon",
     "ratings": "1.8",
-    "location": 2,
+    "city_id": 2,
     "city": "Delhi",
     "amenities": ["Wifi", "AC", "Tv", "Geyser", "Power Backup", "Elevator"],
     "imageUrls": [
@@ -74,15 +67,10 @@
     "actualRate": 2078,
     "roomType": "NonDelux",
     "maxCount": 3,
-    "collections_id": [1, 2, 3, 5],
+    "collections_id": [5],
     "category_id": [1, 2],
     "accommodation_id": [1, 2],
-    "collections": [
-      { "id": "1", "name": "Family" },
-      { "id": "2", "name": "Couples" },
-      { "id": "3", "name": "Group" },
-      { "id": "5", "name": "ID" }
-    ],
+    "collections": [{ "id": "5", "name": "ID" }],
     "category": [
       { "id": "1", "name": "OYO" },
       { "id": "2", "name": "Flagship" }
@@ -99,7 +87,7 @@
     "name": "Flagship 77174 BSNL Exchange",
     "area": "B1149, Greenfield Colony Block B, Sector 43, Faridabad",
     "ratings": "4.1",
-    "location": 2,
+    "city_id": 2,
     "city": "Delhi",
     "amenities": ["Wifi", "AC", "Tv", "Card Payment", "CCTV", "Power Backup"],
     "imageUrls": [
@@ -111,14 +99,12 @@
     "actualRate": 2392,
     "roomType": "Delux",
     "maxCount": 3,
-    "collections_id": [1, 2, 3, 5],
+    "collections_id": [1, 2],
     "category_id": [2],
     "accommodation_id": [2],
     "collections": [
       { "id": "1", "name": "Family" },
-      { "id": "2", "name": "Couples" },
-      { "id": "3", "name": "Group" },
-      { "id": "5", "name": "ID" }
+      { "id": "2", "name": "Couples" }
     ],
     "category": [{ "id": "2", "name": "Flagship" }],
     "accommodation": [{ "id": "2", "name": "Hotel" }],
@@ -130,7 +116,7 @@
     "name": "OYO Home 79557 Elegant Stay (24 Baner) Baner",
     "area": "16, Opposite Bravuria Society Shivar Chinese Corner Near, Lane, Balewadi Phata, Balewadi, Pune",
     "ratings": "4.3",
-    "location": 3,
+    "city_id": 3,
     "city": "Pune",
     "amenities": ["Wifi", "AC", "Tv", "King sized bed", "Wardrobe", "Cot"],
     "imageUrls": [
@@ -142,13 +128,10 @@
     "actualRate": 3400,
     "roomType": "Delux",
     "maxCount": 3,
-    "collections_id": [],
-    "category_id": [],
-    "accommodation_id": [],
+    "collections_id": [4, 5],
+    "category_id": [1, 2, 3],
+    "accommodation_id": [1, 2],
     "collections": [
-      { "id": "1", "name": "Family" },
-      { "id": "2", "name": "Couples" },
-      { "id": "3", "name": "Group" },
       { "id": "4", "name": "Business" },
       { "id": "5", "name": "ID" }
     ],
@@ -169,7 +152,7 @@
     "name": "Flagship 77672 Kharadi",
     "area": "Sr No 134/4/2/1 Tulja Bhavani Nagar Beside Chandan Marble Near Yadav Petrol Pump, Nagar Rd, Kharadi, Pune",
     "ratings": "3.4",
-    "location": 3,
+    "city_id": 3,
     "city": "Pune",
     "amenities": ["Wifi", "AC", "Tv", "King sized bed", "Parking", "Cot"],
     "imageUrls": [
@@ -184,13 +167,7 @@
     "collections_id": [1, 2, 3, 4, 5],
     "category_id": [2],
     "accommodation_id": [1, 2],
-    "collections": [
-      { "id": "1", "name": "Family" },
-      { "id": "2", "name": "Couples" },
-      { "id": "3", "name": "Group" },
-      { "id": "4", "name": "Business" },
-      { "id": "5", "name": "ID" }
-    ],
+    "collections": [{ "id": "4", "name": "Business" }],
     "category": [{ "id": "2", "name": "Flagship" }],
     "accommodation": [
       { "id": "1", "name": "OYOhotel" },
@@ -204,7 +181,7 @@
     "name": "OYO 7724 Hotel Pr Chandigarh",
     "area": "Plot No.105, Vpo Dariya, Railway Station, Chandigarh",
     "ratings": "3.7",
-    "location": 4,
+    "city_id": 4,
     "city": "Chandigarh",
     "amenities": ["Wifi", "AC", "Tv", "King sized bed", "Geyser", "Cot"],
     "imageUrls": [
@@ -236,7 +213,7 @@
     "name": "OYO 75331 Hotel Shivam Lodge",
     "area": "Near Near Ats Homes, Dera Bassi, Zirakpur",
     "ratings": "4.3",
-    "location": 4,
+    "city_id": 4,
     "city": "Chandigarh",
     "amenities": ["Wifi", "AC", "Tv", "King sized bed", "CCTV", "Power Backup"],
     "imageUrls": [
@@ -251,13 +228,7 @@
     "collections_id": [1, 2, 3, 4, 5],
     "category_id": [1, 2],
     "accommodation_id": [1],
-    "collections": [
-      { "id": "1", "name": "Family" },
-      { "id": "2", "name": "Couples" },
-      { "id": "3", "name": "Group" },
-      { "id": "4", "name": "Business" },
-      { "id": "5", "name": "ID" }
-    ],
+    "collections": [{ "id": "1", "name": "Family" }],
     "category": [
       { "id": "1", "name": "OYO" },
       { "id": "2", "name": "Flagship" }
@@ -271,7 +242,7 @@
     "name": "Capital O 700522 The Great Ocean View",
     "area": "Mandrem, Pernem, North Goa, Goa",
     "ratings": "4.4",
-    "location": 5,
+    "city_id": 5,
     "city": "Goa",
     "amenities": [
       "Kitchen",
@@ -293,11 +264,7 @@
     "collections_id": [1, 2, 5],
     "category_id": [3],
     "accommodation_id": [2],
-    "collections": [
-      { "id": "1", "name": "Family" },
-      { "id": "2", "name": "Couples" },
-      { "id": "5", "name": "ID" }
-    ],
+    "collections": [{ "id": "2", "name": "Couples" }],
     "category": [
       { "id": "1", "name": "OYO" },
       { "id": "2", "name": "Flagship" }
@@ -311,7 +278,7 @@
     "name": "Townhouse OAK Kris Dane's Resort",
     "area": "Roland Place, Holiday Street, Calangute, Bardez, North Goa, Goa",
     "ratings": "3.9",
-    "location": 5,
+    "city_id": 5,
     "city": "Goa",
     "amenities": [
       "Kitchen",
@@ -347,7 +314,7 @@
     "name": "OYO SilverKey 75992 Bhumi World",
     "area": "Bhumi World Industrial Estate, Mumbai Nasik Highway, Opp Tata Amantra, Bhiwandi, Thane, Mumbai",
     "ratings": "3.5",
-    "location": 6,
+    "city_id": 6,
     "city": "Mumbai",
     "amenities": [
       "Wifi",
@@ -370,7 +337,6 @@
     "category_id": [2],
     "accommodation_id": [2],
     "collections": [
-      { "id": "1", "name": "Family" },
       { "id": "2", "name": "Couples" },
       { "id": "4", "name": "Business" }
     ],
@@ -384,7 +350,7 @@
     "name": "Capital O 62560 Hotel Zaid International",
     "area": "Near Huntsman Building, Marol, Mumbai",
     "ratings": "4.0",
-    "location": 6,
+    "city_id": 6,
     "city": "Mumbai",
     "amenities": ["Wifi", "AC", "Tv", "King sized bed", "Wardrobe", "Cot"],
     "imageUrls": [
